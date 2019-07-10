@@ -13,12 +13,16 @@ html {
   line-height: 1.6;
   background: #fff;
   height: 100%;
-  background-image: url("img_girl.jpg");
 }
 
 #main-header {
   background: $bg-image no-repeat center center / cover;
   height: 100%;
+
+  #shader {
+    background: rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
 }
 
 a {
@@ -34,6 +38,7 @@ ul {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 20vh;
 }
 
 #main-footer {
@@ -43,10 +48,35 @@ ul {
   bottom: 0;
   width: 100%;
   color: white;
+  line-height: 2rem;
+  font-size: 1rem;
 
   #footer-content {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .social {
+      border-radius: 50%;
+      border: 1px white solid;
+
+      .fab {
+        border: 2px #fff solid;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem;
+        transition: all 0.8s;
+
+        &:hover {
+          background: $main-color;
+        }
+      }
+    }
   }
 }
 

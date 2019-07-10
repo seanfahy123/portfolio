@@ -13,12 +13,14 @@ html {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   background: #fff;
-  height: 100%;
-  background-image: url("img_girl.jpg"); }
+  height: 100%; }
 
 #main-header {
   background: url("../../images/background-image.jpg") no-repeat center center/cover;
   height: 100%; }
+  #main-header #shader {
+    background: rgba(0, 0, 0, 0.1);
+    height: 100%; }
 
 a {
   text-decoration: none;
@@ -30,7 +32,8 @@ ul {
 #intro {
   display: flex;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20vh; }
 
 #main-footer {
   background-color: #333;
@@ -38,10 +41,29 @@ ul {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: white; }
+  color: white;
+  line-height: 2rem;
+  font-size: 1rem; }
   #main-footer #footer-content {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    #main-footer #footer-content .social {
+      border-radius: 50%;
+      border: 1px white solid; }
+      #main-footer #footer-content .social .fab {
+        border: 2px #fff solid;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem;
+        transition: all 0.8s; }
+        #main-footer #footer-content .social .fab:hover {
+          background: #ffbc00; }
 
 #main-nav {
   display: flex;
