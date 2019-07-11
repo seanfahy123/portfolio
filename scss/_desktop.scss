@@ -1,0 +1,8 @@
+@import "utilities";
+
+@media (min-width: $mobile-to-desktop-px) {
+  // hide the hamburger menu on desktop
+  .menu-wrap {
+    display: none;
+  }
+}

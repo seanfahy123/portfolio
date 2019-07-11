@@ -1,50 +1,40 @@
-@import "variables";
 @import "utilities";
+@import "desktop";
+@import "mobile";
 
-// General styling
-* {
-  margin: 0;
-  padding: 0;
-}
-
-#main-nav ul {
-  font-size: 20px;
-}
-
-body,
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.6;
-  background: #fff;
-  height: 100%;
-}
-
+// Header styling
 #main-header {
   background: $bg-image no-repeat center center / cover;
   height: 100%;
 
-  #shader {
-    background: rgba(0, 0, 0, 0.1);
+  #nav-shader {
+    background: rgba(0, 0, 0, 0.05);
     height: 100%;
+
+    #intro {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 30vh;
+    }
+
+    #main-nav {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+
+      ul {
+        display: flex;
+      }
+
+      a {
+        margin: 0 1rem;
+      }
+    }
   }
 }
 
-a {
-  text-decoration: none;
-  color: $dark-color;
-}
-
-ul {
-  list-style: none;
-}
-
-#intro {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 20vh;
-}
-
+// Footer styling
 #main-footer {
   background-color: $dark-color;
   height: 4rem;
@@ -62,39 +52,20 @@ ul {
     top: 50%;
     transform: translateY(-50%);
 
-    .social {
+    .fab {
+      border: 2px #fff solid;
       border-radius: 50%;
-      border: 1px white solid;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem;
+      color: white;
 
-      .fab {
-        border: 1.5px #fff solid;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        line-height: 20px;
-        text-align: center;
-        padding: 0.5rem;
+      &:hover {
+        background: $main-color;
         transition: all 0.8s;
-        color: white;
-
-        &:hover {
-          background: $main-color;
-        }
       }
     }
-  }
-}
-
-#main-nav {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1rem;
-
-  ul {
-    display: flex;
-  }
-
-  a {
-    margin: 0 1rem;
   }
 }
