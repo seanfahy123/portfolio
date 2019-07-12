@@ -3,11 +3,11 @@
 @import "mobile";
 
 // Header styling
-#main-header {
+#contents {
   background: $bg-image no-repeat center center / cover;
   height: 100%;
 
-  #nav-shader {
+  #content-shader {
     background: rgba(0, 0, 0, 0.05);
     height: 100%;
 
@@ -34,7 +34,7 @@
           border-color: $main-color;
         }
 
-        &.current {
+        &#current {
           border-color: $main-color;
         }
       }

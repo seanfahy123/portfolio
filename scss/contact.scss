@@ -1,0 +1,16 @@
+@import "utilities";
+
+#form-title {
+  border-bottom: 2px solid $main-color;
+  margin-bottom: 1rem;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#form-contents {
+  width: 20vw;
+}

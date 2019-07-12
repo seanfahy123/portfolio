@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <title>Sean Fahy | Frontend Developer</title>
   </head>
   <body>
@@ -26,26 +27,29 @@
           <nav id="main-nav">
             <h1>Sean Fahy</h1>
             <ul>
-              <li><a href="index.html" id="current">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="work.html">Work</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html" id="current">Contact</a></li>
             </ul>
           </nav>
-          <div id="intro">
-            <div>
-              <h1>
-                I Am Sean The
-                <span
-                  class="txt-type"
-                  data-wait="3000"
-                  data-words='[ "Software Engineer", "React Dev", "UI/UX Dev"]'
-                ></span>
-              </h1>
-              <p class="head">
-                I specialise in React
-              </p>
-              <a href="work.html" id="work-button">View My Work</a>
+          <!-- Contact form -->
+          <div id="contact-form">
+            <div id="form-contents">
+              <h2 id="form-title">
+                Contact Me
+              </h2>
+              <p>Here is how you can reach me</p>
+              <form>
+                <div>
+                  <input type="text" placeholder="Name" />
+                  <input type="text" placeholder="Subject" />
+                  <input type="text" placeholder="Email Address" />
+                  <input type="text" placeholder="Phone Number" />
+                  <textarea type="text" placeholder="Enter Message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -85,7 +89,5 @@
         </div>
       </div>
     </footer>
-    <!-- Typewriter effect  -->
-    <script src="./js/typewriter.js"></script>
   </body>
 </html>
