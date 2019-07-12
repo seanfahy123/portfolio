@@ -1,11 +1,12 @@
 // Variables
-$website-width: 85vw;
+$website-width: 80vw;
 $main-color: #ffbc00;
 $dark-color: #333;
 $overlay-color: rgba(24, 39, 51, 0.9);
 $bg-image: url("../images/background-image.jpg");
 $menu-open-speed: 0.75s;
 $mobile-to-desktop-px: 600px;
+$hamburger-menu-highlight-speed: 0.6s;
 
 // Basic utilities & general styling
 .container {

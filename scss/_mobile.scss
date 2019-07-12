@@ -104,6 +104,7 @@
     visibility: visible;
   }
 
+  // Menu speed changed here
   .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1.1);
     transition-duration: $menu-open-speed;
@@ -158,7 +159,7 @@
     a {
       color: inherit;
       text-decoration: none;
-      transition: color 0.4s ease;
+      transition: color $hamburger-menu-highlight-speed ease;
     }
 
     // Changing list items color when they are hovered over
