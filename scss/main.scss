@@ -18,10 +18,25 @@
 
       ul {
         display: flex;
+
+        a {
+          line-height: 1.5rem;
+          font-size: 1.5rem;
+          margin: 0 1rem;
+        }
       }
 
       a {
-        margin: 0 1rem;
+        border-bottom: 3px transparent solid;
+        transition: border-color $hover-highlight-speed;
+
+        &:hover {
+          border-color: $main-color;
+        }
+
+        &.current {
+          border-color: $main-color;
+        }
       }
     }
 
@@ -31,8 +46,18 @@
       text-align: center;
       margin-top: 30vh;
 
+      h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+
       p {
-        margin: 0.5rem 0;
+        margin-top: 0.4rem;
+        margin-bottom: 0.8rem;
+      }
+
+      #work-button {
+        border-bottom: 3px solid $main-color;
       }
     }
   }
@@ -65,10 +90,10 @@
       text-align: center;
       padding: 0.5rem;
       color: white;
+      transition: background-color $hover-highlight-speed;
 
       &:hover {
-        background: $main-color;
-        transition: all 0.8s;
+        background-color: $main-color;
       }
     }
   }
