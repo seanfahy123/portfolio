@@ -52,7 +52,12 @@ body {
 
 @media (min-width: 700px) {
   .menu-wrap {
-    display: none; } }
+    display: none; }
+  #intro {
+    margin-top: 30vh; }
+    #intro h1 {
+      line-height: 3rem;
+      font-size: 3rem; } }
 
 .container {
   max-width: 80vw;
@@ -85,6 +90,11 @@ body {
     display: none; }
   #main-nav ul li {
     display: none; }
+  #intro {
+    margin-top: 25vh; }
+    #intro h1 {
+      line-height: 2rem;
+      font-size: 2rem; }
   header * {
     box-sizing: border-box; }
   .btn {
@@ -222,11 +232,7 @@ body {
     #main-header #nav-shader #intro {
       display: flex;
       justify-content: center;
-      text-align: center;
-      margin-top: 30vh; }
-      #main-header #nav-shader #intro h1 {
-        font-size: 3rem;
-        line-height: 3rem; }
+      text-align: center; }
       #main-header #nav-shader #intro p {
         margin-top: 0.4rem;
         margin-bottom: 0.8rem; }

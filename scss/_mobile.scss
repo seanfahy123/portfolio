@@ -11,6 +11,14 @@
     display: none;
   }
 
+  #intro {
+    margin-top: 25vh;
+    h1 {
+      line-height: 2rem;
+      font-size: 2rem;
+    }
+  }
+
   header * {
     box-sizing: border-box;
   }
