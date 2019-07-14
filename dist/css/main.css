@@ -254,6 +254,8 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
+    #main-footer #footer-content p {
+      margin: 4px 0; }
     #main-footer #footer-content .fab {
       border: 2px #fff solid;
       border-radius: 50%;
