@@ -12,7 +12,12 @@
 }
 
 #form-contents {
+  margin-top: 2rem;
   width: 100%;
+
+  p {
+    margin: 1rem 0;
+  }
 
   #input-fields {
     display: grid;
@@ -46,5 +51,13 @@
 
   .input {
     padding: 0.5rem 1rem;
+  }
+
+  #submit-button {
+    padding: 0.7rem 1.7rem;
+    margin-top: 0.5rem;
+    background-color: $dark-color;
+    color: white;
+    border: none;
   }
 }

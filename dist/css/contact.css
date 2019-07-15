@@ -34,7 +34,10 @@ body {
   text-align: center; }
 
 #form-contents {
+  margin-top: 2rem;
   width: 100%; }
+  #form-contents p {
+    margin: 1rem 0; }
   #form-contents #input-fields {
     display: grid;
     grid-template-areas: "name email" "subject phone" "message message";
@@ -51,3 +54,9 @@ body {
     grid-area: message; }
   #form-contents .input {
     padding: 0.5rem 1rem; }
+  #form-contents #submit-button {
+    padding: 0.7rem 1.7rem;
+    margin-top: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none; }
