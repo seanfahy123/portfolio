@@ -175,4 +175,40 @@
       color: $main-color;
     }
   }
+
+  // CONTACT PAGE
+  // making the contact form responsive
+  .container {
+    max-width: 90%;
+    // Overriding padding for more width
+    padding: 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #form-contents {
+    margin-top: 2rem;
+    width: 100%;
+
+    p {
+      margin: 1rem 0;
+      line-height: 18px;
+      font-size: 18px;
+    }
+
+    #input-fields {
+      display: grid;
+      grid-template-areas:
+        "name"
+        "email"
+        "subject"
+        "phone"
+        "message";
+      grid-gap: 1rem;
+    }
+
+    .input {
+      padding: 0.5rem 1rem;
+    }
+  }
 }

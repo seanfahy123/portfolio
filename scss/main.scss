@@ -1,6 +1,5 @@
 @import "utilities";
-@import "desktop";
-@import "mobile";
+// Responsive imports at the bottom
 
 // Header styling
 #contents {
@@ -96,3 +95,6 @@
     }
   }
 }
+
+@import "desktop";
+@import "mobile";
