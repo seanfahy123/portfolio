@@ -34,4 +34,20 @@ body {
   text-align: center; }
 
 #form-contents {
-  width: 20vw; }
+  width: 100%; }
+  #form-contents #input-fields {
+    display: grid;
+    grid-template-areas: "name email" "subject phone" "message message";
+    grid-gap: 1rem; }
+  #form-contents #name-input {
+    grid-area: name; }
+  #form-contents #subject-input {
+    grid-area: subject; }
+  #form-contents #email-input {
+    grid-area: email; }
+  #form-contents #phone-input {
+    grid-area: phone; }
+  #form-contents #message {
+    grid-area: message; }
+  #form-contents .input {
+    padding: 0.5rem 1rem; }
