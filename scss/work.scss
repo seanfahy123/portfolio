@@ -1,0 +1,14 @@
+@import "utilities";
+
+#contents {
+  height: 96px;
+}
+
+#work-showcase {
+  display: flex;
+  justify-content: center;
+}
+
+#work-title {
+  border-bottom: 2px $main-color solid;
+}

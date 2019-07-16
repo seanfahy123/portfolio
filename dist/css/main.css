@@ -285,4 +285,6 @@ body {
       grid-template-areas: "name" "email" "subject" "phone" "message";
       grid-gap: 1rem; }
     #form-contents .input {
-      padding: 0.5rem 1rem; } }
+      padding: 0.5rem 1rem; }
+  #contents #main-content {
+    height: calc(100vh - 128px); } }

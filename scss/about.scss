@@ -1,0 +1,17 @@
+@import "utilities";
+
+#contents {
+  #main-content {
+    height: calc(100vh - 160px);
+    #about-me {
+      height: 50%;
+    }
+    #skills {
+      height: 50%;
+    }
+  }
+}
+
+#main-nav {
+  margin-bottom: 32px;
+}
