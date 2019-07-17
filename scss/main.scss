@@ -25,6 +25,7 @@
         }
       }
 
+      // On hover, buttons become underlined
       a {
         border-bottom: 3px transparent solid;
         transition: border-color $hover-highlight-speed;
@@ -49,8 +50,11 @@
         margin-bottom: 0.8rem;
       }
 
+      a {
+        height: 40px;
+      }
+
       #work-button {
-        padding-bottom: 1px;
         border-bottom: 3px solid $main-color;
       }
     }
@@ -72,6 +76,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    // Keep elements vertically centered
     top: 50%;
     transform: translateY(-50%);
 
@@ -97,5 +102,6 @@
   }
 }
 
+// mobile takes precedence above all
 @import "desktop";
 @import "mobile";

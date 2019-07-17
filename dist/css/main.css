@@ -54,8 +54,9 @@ body {
       #contents #content-shader #intro p {
         margin-top: 0.4rem;
         margin-bottom: 0.8rem; }
+      #contents #content-shader #intro a {
+        height: 40px; }
       #contents #content-shader #intro #work-button {
-        padding-bottom: 1px;
         border-bottom: 3px solid #ffbc00; }
 
 #main-footer {
