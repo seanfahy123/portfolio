@@ -2,13 +2,19 @@
 
 #contents {
   height: 96px;
+  border-bottom: 3px $main-color solid;
+  margin-bottom: 1rem;
 }
 
 #work-showcase {
   display: flex;
   justify-content: center;
-}
 
-#work-title {
-  border-bottom: 2px $main-color solid;
+  #work-title {
+    font-size: 32;
+    border-bottom: 2px $main-color solid;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }

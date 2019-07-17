@@ -25,8 +25,11 @@ body {
   height: 100%; }
 
 #form-title {
+  line-height: 50px;
+  font-size: 50px;
   border-bottom: 2px solid #ffbc00;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  padding-bottom: 1rem; }
 
 #contact-form {
   display: flex;

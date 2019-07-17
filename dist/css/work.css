@@ -25,11 +25,16 @@ body {
   height: 100%; }
 
 #contents {
-  height: 96px; }
+  height: 96px;
+  border-bottom: 3px #ffbc00 solid;
+  margin-bottom: 1rem; }
 
 #work-showcase {
   display: flex;
   justify-content: center; }
-
-#work-title {
-  border-bottom: 2px #ffbc00 solid; }
+  #work-showcase #work-title {
+    font-size: 32;
+    border-bottom: 2px #ffbc00 solid;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem; }
