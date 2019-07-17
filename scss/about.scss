@@ -7,7 +7,9 @@
 }
 
 #main-content {
+  // Adjust section height for browser height
   height: calc(100vh - 160px - 1rem);
+  // Each section gets 50%
   #about-me {
     height: 50%;
     h1 {
