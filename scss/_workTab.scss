@@ -1,0 +1,56 @@
+@import "utilities";
+
+// The work page becomes unusable far before the mobile limit is reached so this will make it become responsive before that point so maintain usability
+
+@media (min-width: $mobile-to-tablet-px) {
+  // WORK PAGE
+  // Making it responsive
+  #showcase-contents {
+    #works {
+      margin: 0 1rem;
+      .work {
+        display: grid;
+        grid-template-areas: "name about";
+        grid-gap: 1rem;
+        .image {
+          height: 300px;
+          overflow: hidden;
+        }
+        .about {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-to-tablet-px) {
+  // WORK PAGE
+  // Making it responsive
+  .container {
+    max-width: 90%;
+    // Overriding padding for more width
+    padding: 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  #showcase-contents {
+    #works {
+      .work {
+        display: grid;
+        grid-template-areas:
+          "name"
+          "about";
+        grid-gap: 1rem;
+        .image {
+          height: 200px;
+          width: 100%;
+        }
+        .about {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

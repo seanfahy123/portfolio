@@ -9,12 +9,42 @@
 #work-showcase {
   display: flex;
   justify-content: center;
+  width: 100%;
 
-  #work-title {
-    font-size: 32;
-    border-bottom: 2px $main-color solid;
-    text-align: center;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
+  #showcase-contents {
+    width: 100%;
+    #title {
+      text-align: center;
+      margin-bottom: 0.5rem;
+
+      #work-title {
+        font-size: 32;
+        border-bottom: 2px $main-color solid;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+    #works {
+      width: 100%;
+      .work {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        .image {
+          overflow: hidden;
+          grid-area: name;
+        }
+        .about {
+          padding: 1rem 1rem;
+          grid-area: about;
+        }
+      }
+    }
   }
 }
+
+#img1 {
+  background: url(../images/works/work1.jpg) no-repeat center center / cover;
+}
+
+@import "workTab";

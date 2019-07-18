@@ -28,10 +28,82 @@ body {
 
 #work-showcase {
   display: flex;
-  justify-content: center; }
-  #work-showcase #work-title {
-    font-size: 32;
-    border-bottom: 2px #ffbc00 solid;
-    text-align: center;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem; }
+  justify-content: center;
+  width: 100%; }
+  #work-showcase #showcase-contents {
+    width: 100%; }
+    #work-showcase #showcase-contents #title {
+      text-align: center;
+      margin-bottom: 0.5rem; }
+      #work-showcase #showcase-contents #title #work-title {
+        font-size: 32;
+        border-bottom: 2px #ffbc00 solid;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem; }
+    #work-showcase #showcase-contents #works {
+      width: 100%; }
+      #work-showcase #showcase-contents #works .work {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
+        #work-showcase #showcase-contents #works .work .image {
+          overflow: hidden;
+          grid-area: name; }
+        #work-showcase #showcase-contents #works .work .about {
+          padding: 1rem 1rem;
+          grid-area: about; }
+
+#img1 {
+  background: url(../images/works/work1.jpg) no-repeat center center/cover; }
+
+.container {
+  max-width: 80vw;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  overflow: hidden; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  height: 100%; }
+
+@media (min-width: 900px) {
+  #showcase-contents #works {
+    margin: 0 1rem; }
+    #showcase-contents #works .work {
+      display: grid;
+      grid-template-areas: "name about";
+      grid-gap: 1rem; }
+      #showcase-contents #works .work .image {
+        height: 300px;
+        overflow: hidden; }
+      #showcase-contents #works .work .about {
+        width: 50%; } }
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+    padding: 0 0;
+    margin: 0 auto;
+    overflow: hidden; }
+  #showcase-contents #works .work {
+    display: grid;
+    grid-template-areas: "name" "about";
+    grid-gap: 1rem; }
+    #showcase-contents #works .work .image {
+      height: 200px;
+      width: 100%; }
+    #showcase-contents #works .work .about {
+      width: 100%; } }
