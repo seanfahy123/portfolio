@@ -29,7 +29,8 @@ body {
 #work-showcase {
   display: flex;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 4rem; }
   #work-showcase #showcase-contents {
     width: 100%; }
     #work-showcase #showcase-contents #title {
