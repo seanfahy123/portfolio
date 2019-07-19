@@ -45,7 +45,7 @@ body {
       width: 100%; }
       #work-showcase #showcase-contents #works .work {
         width: 100%;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         margin-bottom: 2rem; }
         #work-showcase #showcase-contents #works .work .image {
           overflow: hidden;
@@ -101,8 +101,7 @@ body {
     overflow: hidden; }
   #showcase-contents #works .work {
     display: grid;
-    grid-template-areas: "name" "about";
-    grid-gap: 1rem; }
+    grid-template-areas: "name" "about"; }
     #showcase-contents #works .work .image {
       height: 200px;
       width: 100%; }
