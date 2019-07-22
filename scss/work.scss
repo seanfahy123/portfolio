@@ -31,11 +31,14 @@
         width: 100%;
         margin-top: 0.5rem;
         margin-bottom: 2rem;
+
         .image {
+          min-width: 350px;
           overflow: hidden;
           grid-area: name;
         }
         .about {
+          width: 100%;
           padding: 1rem 1rem;
           grid-area: about;
         }
@@ -46,7 +49,7 @@
 
 // Background images
 #img1 {
-  background: url(../images/works/work1.jpg) no-repeat center center / cover;
+  background: url(../images/works/work1.png) no-repeat center center / cover;
 }
 
 @import "workTab";

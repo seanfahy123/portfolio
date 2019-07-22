@@ -48,14 +48,16 @@ body {
         margin-top: 0.5rem;
         margin-bottom: 2rem; }
         #work-showcase #showcase-contents #works .work .image {
+          min-width: 350px;
           overflow: hidden;
           grid-area: name; }
         #work-showcase #showcase-contents #works .work .about {
+          width: 100%;
           padding: 1rem 1rem;
           grid-area: about; }
 
 #img1 {
-  background: url(../images/works/work1.jpg) no-repeat center center/cover; }
+  background: url(../images/works/work1.png) no-repeat center center/cover; }
 
 .container {
   max-width: 80vw;
