@@ -7,18 +7,18 @@
 }
 
 #main-content {
+  margin-bottom: 4rem;
+  // Stylng titles
+  h1 {
+    display: inline;
+    font-size: 28px;
+    border-bottom: 2px $main-color solid;
+  }
   // Adjust section height for browser height
-  //height: calc(100vh - 160px - 1rem);
-  // Each section gets 50%
   #about-me {
-    height: 50%;
-    min-height: 250px;
-    h1 {
-      display: inline;
-      font-size: 24px;
-      border-bottom: 2px $main-color solid;
-    }
+    min-height: 150px;
     p {
+      font-size: 20px;
       padding: 0.5rem 0;
     }
   }
@@ -30,16 +30,26 @@
       flex-wrap: wrap;
       justify-content: center;
       img {
+        padding: 1rem 1rem;
+        border-radius: 12px;
         margin: 0.5rem 0.5rem;
         width: 200px;
         height: 200px;
+
+        // @keyframes shader {
+        //   0% {
+        //     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        //   }
+        //   100% {
+        //     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        //   }
+        // }
+
+        // &:hover {
+        //   animation: shader 1s ease-in-out;
+        //   animation-fill-mode: forwards;
+        // }
       }
     }
-    h1 {
-      display: inline;
-      font-size: 24px;
-      border-bottom: 2px $main-color solid;
-    }
   }
-  margin-bottom: 4rem;
 }
