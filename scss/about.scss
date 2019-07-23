@@ -18,13 +18,22 @@
       font-size: 24px;
       border-bottom: 2px $main-color solid;
     }
+    p {
+      padding: 0.5rem 0;
+    }
   }
   #skills {
     height: 50%;
-    img {
-      margin: 0.5rem 0.5rem;
-      width: 200px;
-      height: 200px;
+    #logos {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        margin: 0.5rem 0.5rem;
+        width: 200px;
+        height: 200px;
+      }
     }
     h1 {
       display: inline;
@@ -32,4 +41,5 @@
       border-bottom: 2px $main-color solid;
     }
   }
+  margin-bottom: 4rem;
 }
