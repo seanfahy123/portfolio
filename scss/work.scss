@@ -41,6 +41,10 @@
         .about {
           width: 100%;
           grid-area: about;
+
+          p {
+            width: 100%;
+          }
         }
       }
     }

@@ -55,6 +55,8 @@ body {
         #work-showcase #showcase-contents #works .work .about {
           width: 100%;
           grid-area: about; }
+          #work-showcase #showcase-contents #works .work .about p {
+            width: 100%; }
 
 .container {
   max-width: 80vw;
