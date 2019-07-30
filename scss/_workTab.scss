@@ -35,19 +35,17 @@
     overflow: hidden;
   }
 
-  #showcase-contents {
-    #works {
-      .work {
-        display: grid;
-        grid-template-areas:
-          "name"
-          "about";
-        .image {
-          height: 200px;
-          width: 100%;
-        }
-        .about {
-          width: 100%;
+  #work-showcase {
+    #showcase-contents {
+      #works {
+        .work {
+          .image {
+            width: 100%;
+            img {
+              width: 100%;
+              grid-area: name;
+            }
+          }
         }
       }
     }

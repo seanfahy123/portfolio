@@ -48,16 +48,13 @@ body {
         margin-top: 0.5rem;
         margin-bottom: 2rem; }
         #work-showcase #showcase-contents #works .work .image {
-          min-width: 350px;
-          overflow: hidden;
+          width: 500px;
           grid-area: name; }
+          #work-showcase #showcase-contents #works .work .image img {
+            width: 500px; }
         #work-showcase #showcase-contents #works .work .about {
           width: 100%;
-          padding: 1rem 1rem;
           grid-area: about; }
-
-#img1 {
-  background: url(../images/works/work1.png) no-repeat center center/cover; }
 
 .container {
   max-width: 80vw;
@@ -101,11 +98,8 @@ body {
     padding: 0 0;
     margin: 0 auto;
     overflow: hidden; }
-  #showcase-contents #works .work {
-    display: grid;
-    grid-template-areas: "name" "about"; }
-    #showcase-contents #works .work .image {
-      height: 200px;
-      width: 100%; }
-    #showcase-contents #works .work .about {
-      width: 100%; } }
+  #work-showcase #showcase-contents #works .work .image {
+    width: 100%; }
+    #work-showcase #showcase-contents #works .work .image img {
+      width: 100%;
+      grid-area: name; } }

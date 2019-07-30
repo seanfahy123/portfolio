@@ -31,25 +31,20 @@
         width: 100%;
         margin-top: 0.5rem;
         margin-bottom: 2rem;
-
         .image {
-          min-width: 350px;
-          overflow: hidden;
+          width: 500px;
+          img {
+            width: 500px;
+          }
           grid-area: name;
         }
         .about {
           width: 100%;
-          padding: 1rem 1rem;
           grid-area: about;
         }
       }
     }
   }
-}
-
-// Background images
-#img1 {
-  background: url(../images/works/work1.png) no-repeat center center / cover;
 }
 
 @import "workTab";
