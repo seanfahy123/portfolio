@@ -44,6 +44,10 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center; }
+      #main-content #skills #logos #npm-logo {
+        width: 170px;
+        height: 66px;
+        margin-top: 52px; }
       #main-content #skills #logos img {
         padding: 1rem 1rem;
         border-radius: 12px;
