@@ -7,7 +7,7 @@
 }
 
 #main-content {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   // Stylng titles
   h1 {
     display: inline;
@@ -29,19 +29,35 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      #npm-logo {
-        width: 170px;
-        height: 66px;
-        margin-top: 52px;
-        margin-bottom: 52px;
+      @media (min-width: 1150px) {
+        #npm-logo {
+          width: 170px;
+          height: 66px;
+          margin-top: 52px;
+          margin-bottom: 52px;
+        }
+        img {
+          padding: 1rem 1rem;
+          margin: 0.5rem 0.5rem;
+          width: 170px;
+          height: 170px;
+        }
       }
-      img {
-        padding: 1rem 1rem;
-        margin: 0.5rem 0.5rem;
-        width: 170px;
-        height: 170px;
+      @media (min-width: 600px) and (max-width: 1150px) {
+        img {
+          padding: 0.5rem 0.5rem;
+          margin: 0rem 0rem;
+          width: 120px;
+          height: 120px;
+        }
+        #npm-logo {
+          width: 120px;
+          height: 46px;
+          margin-top: 37px;
+          margin-bottom: 37px;
+        }
       }
-      @media (max-width: 1000px) {
+      @media (max-width: 600px) {
         img {
           padding: 0.5rem 0.5rem;
           margin: 0rem 0rem;
