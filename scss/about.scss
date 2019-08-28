@@ -7,7 +7,8 @@
 }
 
 #main-content {
-  margin-bottom: 64px;
+  min-height: calc(100% - 227px);
+  margin-bottom: 48px;
   // Stylng titles
   h1 {
     display: inline;
@@ -73,4 +74,9 @@
       }
     }
   }
+}
+
+// Footer styling
+#main-footer {
+  position: relative;
 }

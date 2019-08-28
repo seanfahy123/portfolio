@@ -27,7 +27,8 @@ body {
   border-bottom: 3px #ffbc00 solid; }
 
 #main-content {
-  margin-bottom: 64px; }
+  min-height: calc(100% - 227px);
+  margin-bottom: 48px; }
   #main-content h1 {
     display: inline;
     font-size: 28px;
@@ -77,3 +78,6 @@ body {
           height: 27px;
           margin-top: 21.5px;
           margin-bottom: 21.5px; } }
+
+#main-footer {
+  position: relative; }
