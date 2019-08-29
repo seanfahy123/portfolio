@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 4rem; }
+  min-height: calc(100% - 179px); }
   #work-showcase #showcase-contents {
     width: 100%; }
     #work-showcase #showcase-contents #title {
@@ -57,6 +57,9 @@ body {
           grid-area: about; }
           #work-showcase #showcase-contents #works .work .about p {
             width: 95%; }
+
+#main-footer {
+  position: relative; }
 
 .container {
   max-width: 80vw;

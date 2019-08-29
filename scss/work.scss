@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 4rem;
+  min-height: calc(100% - 179px);
 
   #showcase-contents {
     width: 100%;
@@ -49,6 +49,10 @@
       }
     }
   }
+}
+
+#main-footer {
+  position: relative;
 }
 
 @import "workTab";
