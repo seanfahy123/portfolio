@@ -50,12 +50,10 @@ body {
       display: flex;
       justify-content: center;
       text-align: center; }
-      #contents #content-shader #intro p {
-        margin-top: 0.4rem;
-        margin-bottom: 0.8rem; }
-      #contents #content-shader #intro a {
-        height: 40px; }
+      #contents #content-shader #intro #intro-sentence {
+        margin-bottom: 1rem; }
       #contents #content-shader #intro #work-button {
+        font-size: 20px;
         border-bottom: 3px solid #ffbc00; }
 
 #main-footer {
